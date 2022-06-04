@@ -43,6 +43,10 @@ p {
   height: 70vh;
 }
 
+.single-service-item img {
+  height: 250px;
+}
+
 /* service start */
 .single-service-item {
   border: 1px solid #f3f3f3;
@@ -98,11 +102,13 @@ p {
   background-color: inherit !important;
   box-shadow: none !important;
 }
+
 .accordion-item.mb-3 {
   border-top: 1px solid #ddd;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
+
 /* faq end */
 
 /* location start */
