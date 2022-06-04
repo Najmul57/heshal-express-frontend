@@ -1,0 +1,120 @@
+.section-heading h3 {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-heading h3:after {
+    position: absolute;
+    width: 100px;
+    content: '';
+    background: red;
+    height: 5px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 100%;
+    border-radius: 10px;
+}
+
+.single-slide img {
+    width: 100%;
+    height: 70vh;
+}
+
+/* service start */
+.single-service-item {
+    border: 1px solid #f3f3f3;
+    transition: 0.3s;
+}
+
+.single-service-item:hover {
+    border: 1px solid #ef476f;
+}
+
+.service-content {
+    padding: 10px;
+}
+
+.single-service-item h5 {
+    line-height: 26px;
+    font-weight: normal;
+    transition: 0.3s;
+}
+
+.single-service-item p {
+    margin: 0;
+}
+
+/* service end */
+
+/* testimonial start */
+
+.testimonial-photo img {
+    width: 150px !important;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-photo {
+    margin-bottom: 20px;
+}
+
+.testimonial-content h4 {
+    text-transform: capitalize;
+}
+
+.review_active .owl-dot {
+    width: 20px;
+    background: red;
+    height: 7px;
+    margin: 0 2px;
+    border-radius: 10px;
+}
+
+.review_active .owl-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.review_active .owl-dot.active {
+    background: green;
+    width: 15px;
+}
+
+/* testimonial end */
+
+/* footer start */
+.footer-widget h4 {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.footer-menu li {
+    list-style: none;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-size: 16px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+/* footer end */
